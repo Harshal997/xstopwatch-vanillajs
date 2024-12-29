@@ -17,7 +17,7 @@ start.addEventListener("click", () => {
         seconds = 0;
       }
       const secondsText = seconds < 10 ? "0" + seconds : seconds;
-      const minutesText = mins < 10 ? "0" + mins : mins;
+      const minutesText = mins;
       second.innerText = `${minutesText}:${secondsText}`;
     }, 1000);
   }
